@@ -10,8 +10,8 @@ See file 'products-list.csv' as an example.
 5. With selected quicklook images marked with blue frame, click 'Download' button and let the download link pop out.
 
 ## Small tips:
-*. It's recommendeded to use Firefox browser.
-*. Make sure the browser remembers your Copernicus Scihub account.
+1. It's recommendeded to use Firefox browser.
+2. Make sure the browser remembers your Copernicus Scihub account.
 
-# How to cite
-
+## How to cite
+Wei Yao, Corneliu Octavian Dumitru, Mihai Datcu, An active learning tool for the generation of Earth observation image benchmarks. International Geoscience and Remote Sensing Symposium (IGARSS 2021), July 2021, online.
