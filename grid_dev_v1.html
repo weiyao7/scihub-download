@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="grid_dev_v1.css">
+  <script src='https://unpkg.com/d3@5.7.0/dist/d3.min.js'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<!-- Header -->
+<div class="header" id="myHeader">
+  <h1>Quicklook Grid</h1>
+  <p>Click on the buttons to change the grid view.</p>
+  <div>
+  <button class="btn" onclick="one()">1</button>
+  <button class="btn active" onclick="two()">2</button>
+  <button class="btn" onclick="four()">4</button>
+  </div>
+  <!-- read a local file via browser -->
+  <script type="text/javascript" src="read_csv_1.js"></script>
+  <input type="file" id="csvFileInput" onchange="previewImgs(this.files)" accept=".csv">
+  <button class="btn_fnc" onclick="download()">Download</button>
+</div>
+
+
+<!-- Quicklook Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="" id="img_id1" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" id="img_id2" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" id="img_id3" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" id="img_id4" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" id="img_id5" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" id="img_id6" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" id="img_id7" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+  </div>
+  <div class="column">
+    <img src="" id="img_id8" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" id="img_id9" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" id="img_id10" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" id="img_id11" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" id="img_id12" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" id="img_id13" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" id="img_id14" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+  </div>  
+  <div class="column">
+    <img src="" id="img_id15" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" id="img_id16" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" id="img_id17" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" id="img_id18" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" id="img_id19" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" id="img_id20" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" id="img_id21" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+  </div>
+  <div class="column">
+    <img src="" id="img_id22" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" id="img_id23" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" id="img_id24" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" id="img_id25" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+    <img src="" style="width:100%" onclick="mark(this)" ondblclick="unmark(this)">
+  </div>
+</div>
+
+
+<script src="read_csv_dev_v1.js"></script>
+<!--
+<script src="bundle.js"></script>
+-->
+<script src="grid_dev_v1.js"></script>
+<script src="mouse_dev_v1.js"></script>
+
+</body>
+
+<footer>
+  <a href="#top">back to top</a>
+</footer>
+</html>
+
+
