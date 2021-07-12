@@ -1,5 +1,5 @@
 ## Preprocess:
-0. Use dhusget.sh (https://scihub.copernicus.eu/userguide/BatchScripting) to retrieve a list of products, with two columns: product_id, product_link. 
+0. Please use dhusget.sh (https://scihub.copernicus.eu/userguide/BatchScripting) to retrieve a list of products, with two columns: product_id, product_link. 
 See file 'products-list.csv' as an example.
 
 ## How to use:
@@ -13,5 +13,15 @@ See file 'products-list.csv' as an example.
 1. It's recommendeded to use Firefox browser.
 2. Make sure the browser remembers your Copernicus Scihub account.
 
-## How to cite
-Wei Yao, Corneliu Octavian Dumitru, Mihai Datcu, An active learning tool for the generation of Earth observation image benchmarks. International Geoscience and Remote Sensing Symposium (IGARSS 2021), July 2021, online.
+## Citation
+This app was developed for the following paper, please consider citing it:
+
+```bibtex
+@INPROCEEDINGS{Yao2021,
+  author={W. {Yao} and O. {Dumitru} and M. {Datcu}},
+  booktitle={2021 IEEE International Geoscience and Remote Sensing Symposium (IGARSS 2021)}, 
+  title={An Active Learning Tool for the Generation of Earth Observation Image Benchmarks}, 
+  year={2021},
+  pages={****-****},
+}
+```
